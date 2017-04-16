@@ -312,12 +312,6 @@ F 3 "" H 4600 2650 50  0001 C CNN
 	1    4600 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 2800 4600 2800
-Wire Wire Line
-	4600 2800 4600 2650
-Wire Wire Line
-	4450 2900 5450 2900
 $Comp
 L PWR_FLAG #FLG05
 U 1 1 58F11AA6
@@ -366,4 +360,14 @@ F 3 "" H 6400 6850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6400 6850 6400 7150
+Wire Wire Line
+	5200 2900 4700 2900
+Wire Wire Line
+	4700 2900 4700 2800
+Wire Wire Line
+	4700 2800 4450 2800
+Wire Wire Line
+	4600 2650 4600 2900
+Wire Wire Line
+	4600 2900 4450 2900
 $EndSCHEMATC
