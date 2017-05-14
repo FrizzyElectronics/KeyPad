@@ -281,7 +281,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 2700 5400 2700
 Wire Wire Line
-	5400 2700 5400 2900
+	5400 2900 5400 2700
 Connection ~ 5400 2900
 Connection ~ 5200 2900
 Wire Wire Line
@@ -361,7 +361,7 @@ $EndComp
 Wire Wire Line
 	6400 6850 6400 7150
 Wire Wire Line
-	5200 2900 4700 2900
+	4700 2900 5450 2900
 Wire Wire Line
 	4700 2900 4700 2800
 Wire Wire Line
