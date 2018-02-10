@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:KeyPad
 LIBS:5050_ws2811
 LIBS:a4988-module
 LIBS:acs712
@@ -99,7 +100,6 @@ LIBS:rtl8196
 LIBS:rv3029c2
 LIBS:Sensor_Current
 LIBS:Sensor_Humidity
-LIBS:smd oscillator
 LIBS:songle_relay
 LIBS:SparkFun-Aesthetics
 LIBS:SparkFun-AnalogIC
@@ -241,7 +241,6 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:KeyPad-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -434,18 +433,14 @@ Connection ~ 5200 2900
 $Comp
 L GND-RESCUE-KeyPad #PWR03
 U 1 1 58F1101F
-P 4600 3100
-F 0 "#PWR03" H 4600 2850 50  0001 C CNN
-F 1 "GND" H 4600 2950 50  0000 C CNN
-F 2 "" H 4600 3100 50  0001 C CNN
-F 3 "" H 4600 3100 50  0001 C CNN
-	1    4600 3100
+P 4550 3100
+F 0 "#PWR03" H 4550 2850 50  0001 C CNN
+F 1 "GND" H 4550 2950 50  0000 C CNN
+F 2 "" H 4550 3100 50  0001 C CNN
+F 3 "" H 4550 3100 50  0001 C CNN
+	1    4550 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 3000 4600 3000
-Wire Wire Line
-	4600 3000 4600 3100
 $Comp
 L VCC #PWR04
 U 1 1 58F110FE
@@ -506,12 +501,6 @@ $EndComp
 Wire Wire Line
 	6400 6850 6400 7150
 Wire Wire Line
-	4700 2900 5450 2900
-Wire Wire Line
-	4700 2900 4700 2800
-Wire Wire Line
-	4700 2800 4450 2800
-Wire Wire Line
 	4600 2650 4600 2900
 Wire Wire Line
 	4600 2900 4450 2900
@@ -525,4 +514,14 @@ Wire Wire Line
 	5200 2700 5200 3000
 Wire Wire Line
 	5200 2300 5200 2200
+Wire Wire Line
+	5400 2900 4750 2900
+Wire Wire Line
+	4750 2900 4750 3000
+Wire Wire Line
+	4750 3000 4450 3000
+Wire Wire Line
+	4550 3100 4550 2800
+Wire Wire Line
+	4550 2800 4450 2800
 $EndSCHEMATC
