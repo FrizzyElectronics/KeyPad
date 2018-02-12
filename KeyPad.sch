@@ -241,6 +241,7 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
+LIBS:KeyPad-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -515,7 +516,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 2300 5200 2200
 Wire Wire Line
-	5400 2900 4750 2900
+	4750 2900 5450 2900
 Wire Wire Line
 	4750 2900 4750 3000
 Wire Wire Line
