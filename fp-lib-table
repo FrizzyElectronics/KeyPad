@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name logos_frizzy)(type KiCad)(uri /home/david/Escritorio/Electronics/kicad_componentes/logos_frizzy)(options "")(descr ""))
   (lib (name lib_fp)(type KiCad)(uri "$(KIPRJMOD)/lib_fp.pretty")(options "")(descr ""))
+  (lib (name Grape)(type KiCad)(uri /home/david/Escritorio/Github/Grape/Hardware/KiCad/Grape)(options "")(descr ""))
+  (lib (name logos_frizzy)(type KiCad)(uri /home/david/Escritorio/Electronics/kicad_componentes/logos_frizzy.pretty)(options "")(descr ""))
 )
