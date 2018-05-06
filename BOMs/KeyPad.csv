@@ -1,0 +1,10 @@
+"Id";"Identificador";"Empaquetado";"Cantidad";"Identificación";"Suministrador y ref";
+1;"SW3,SW1,SW2,SW4";"SW_PUSH-12mm";4;"SW_Push_Dual";;;
+2;"G***";"web";1;"LOGO";;;
+3;"REF**,REF**,REF**,REF**";"MountingHole_3.2mm_M3";4;"MountingHole_3.2mm_M3";;;
+4;"P1";"JST_PH_S3B-PH-K_03x2.00mm_Angled";1;"CONN_01X03";;;
+5;"R1";"R_0805";1;"2K";;;
+6;"R2";"R_0805";1;"330R";;;
+7;"R3";"R_0805";1;"620R";;;
+8;"R4";"R_0805";1;"1K";;;
+9;"G***";"atom_XL";1;"LOGO";;;
